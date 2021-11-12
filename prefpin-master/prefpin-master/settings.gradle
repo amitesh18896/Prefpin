@@ -1,0 +1,5 @@
+include ':sample', ':prefpin-processor'
+include ':prefpin'
+include ':prefpin-annotation'
+
+rootProject.name = 'prefpin-project'

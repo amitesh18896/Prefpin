@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+android {
+  compileSdkVersion rootProject.compileSdkVersion
+
+  defaultConfig {
+    minSdkVersion rootProject.minSdkVersion
+
+    javaCompileOptions {
+      annotationProcessorOptions {
+        includeCompileClasspath = true
+      }
+    }
+  }
+}
+
+dependencies {
+  api project(':prefpin-annotation')
+  testImplementation "junit:junit:$rootProject.junitVersion"
+}
+
+apply from: rootProject.file('release-bintray.gradle')
