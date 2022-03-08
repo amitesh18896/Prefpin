@@ -116,4 +116,4 @@ You need to add the following line if ProGuard is used in your app.
 License
 
 
-This project is under MIT license. Copyright (c) 2021 Quang Nguyen.
+This project is under MIT license. Copyright (c) 2021 Quang Nguyen..
